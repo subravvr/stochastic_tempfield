@@ -10,3 +10,6 @@ One of the most intricate facets of probabilistic process modeling is the comput
 In this project (for CE6310: Uncertainty Quantification), I employ a **data-driven approach to estimate  underlying thermophysical property variations in an analytical heat source model based on segmented images from experimental characterization of melt pools in LPBF**. I used a recursive bayesian state estimator (the particle filter) coupled with a quick root-finding method to calibrate temporally varying parameters ensuring that the liquidus contour in the temperature field matched melt pool measurements. This falls under the class of problems known as inverse heat conduction problems, and more generally under inverse problems. 
 
 The writeup and presentation can be found under ./deliverables. Here are some animations showing the calibration results of the model, and the resulting inferred stochastic temperature fields.
+
+Deterministic temperature field (using the OLS solution w.r.t. experimental measurements)
+![til](./rosenthal_ols.gif)
