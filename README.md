@@ -12,4 +12,11 @@ In this project (for CE6310: Uncertainty Quantification), I employ a **data-driv
 The writeup and presentation can be found under ./deliverables. Here are some animations showing the calibration results of the model, and the resulting inferred stochastic temperature fields.
 
 Deterministic temperature field (using the OLS solution w.r.t. experimental measurements)
+Note that until recently, this was a common way of addressing the melt pool modeling facet of PSP models.
 ![til](./rosenthal_ols.gif)
+
+Stochastic temperature field (using particle-filter calibrated estimations of temporally varying thermophysical properties)
+![til](./rosenthal_fluctuations.gif)
+
+Difference in temperature fields (deterministic vs. stochastic)
+![til](./tempfield_diff.gif)
